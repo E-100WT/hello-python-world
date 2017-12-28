@@ -39,3 +39,9 @@ a=int(input("mam,1;woman,2:"))
 h=int(input("身高:"))
 b=(h-80)*0.7 if a==1 else (h-70)*0.6
 print("标准体重＝",b,)
+
+
+
+
+
+
