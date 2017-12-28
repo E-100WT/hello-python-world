@@ -50,7 +50,7 @@ while True:
   
 输入4个整数，输出最大的和最小的
   
-
+(1)
 a=int(input("输入数字："))
 b=int(input("输入数字："))  
 c=int(input("输入数字："))  
@@ -62,8 +62,14 @@ min1=a if a<b else b
 min2=c if c<d else d
 min=min1 if min1<min2 else min2
 print(max,min) 
-  
-  
+
+
+(2)  
+a,b,c,d=int(input("输入数字：")),int(input("输入数字：")),int(input("输入数字：")),int(input("输入数字：")) 
+s=(a,b,c,d)
+a=max(s)
+b=min(s)
+print(a,b)
   
     
 
