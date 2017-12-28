@@ -40,7 +40,32 @@ h=int(input("身高:"))
 b=(h-80)*0.7 if a==1 else (h-70)*0.6
 print("标准体重＝",b,)
 
+计算矩形周长，面积
+while True:
+    a=int(input("距形长:")) 
+    b=int(input("距形宽:")) 
+    c=(a+b)*2              
+    s=a*b                  
+    print("周长＝",c,"面积＝",s)
+  
+输入4个整数，输出最大的和最小的
+  
 
+a=int(input("输入数字："))
+b=int(input("输入数字："))  
+c=int(input("输入数字："))  
+d=int(input("输入数字："))
+max1=a if a>b else b
+max2=c if c>d else d
+max=max1 if max1>max2 else max2 
+min1=a if a<b else b
+min2=c if c<d else d
+min=min1 if min1<min2 else min2
+print(max,min) 
+  
+  
+  
+    
 
 
 
